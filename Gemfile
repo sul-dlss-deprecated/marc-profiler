@@ -1,9 +1,11 @@
-source :rubygems
-source "http://sul-gems.stanford.edu"
+source 'https://rubygems.org'
 
 gem 'nokogiri'
 gem 'rake'
 gem 'rsolr'
+gem 'confstruct'
+gem 'harvestdor'
+gem 'stanford-mods'
 
 # documentation
 group :doc do
